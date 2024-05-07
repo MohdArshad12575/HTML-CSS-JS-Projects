@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: white;
+  position: absolute;
+  top: 18%;
+  left: 28%;
+}
+body {
+  background-color: #30197d;
+}
+.container {
+  width: 800px;
+  height: 200px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: absolute;
+  top: 30%;
+  left: 17%;
+}
+span {
+  font-size: 80px;
+  margin-left: 20px;
+}

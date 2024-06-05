@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+body,html{
+  display: flex;
+  justify-content: center;
+  background-color: #9672DC;
+}
+.card-container{
+    width: 350px;
+    height: 450px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    position: absolute;
+    top: 10%;
+    
+}
+.image-box{
+    position: relative;
+    border-radius: 10px;
+    height: 170px;
+    background-color: #6C3FBC;
+    padding: 3px;
+}
+.image-box .profile-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-left: 25%;
+    margin-top: 30px;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.card-content p {
+    color: black;
+}
+.card-content p b{
+    color: #46237A ;
+
+}
+.card-content #p2{
+    color: grey;
+}
+.social-icons{
+    display: flex;
+    gap: 10px;
+}
+.social-icons i{
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+.social-icons i:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    gap: 35px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: #46237A;
+    border: none;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    font-size: 15px;
+    padding: 5px 10px;
+    opacity: 1;
+    transition: 0.2s ease-in-out;
+}
+.btn:hover{
+    opacity: 1.5;
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+.footer-sec{
+    margin-top: 18px;
+    display: flex;
+    gap: 15px;
+}
+.footer-sec i {
+    color: black;
+}
+.footer-sec i:hover{
+    color: red;
+}
+
+.footer-sec p{
+    color: grey;
+}
